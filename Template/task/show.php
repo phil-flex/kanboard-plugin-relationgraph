@@ -7,7 +7,10 @@
 </div>
 
 <style type="text/css">
-    #mynetwork {width: 900px;height: 700px;border: 1px solid lightgray;}
+    #mynetwork {
+      width: 100%;
+      height: 800px;
+      border: 1px solid lightgray;}
 </style>
 
 <div id="mynetwork"></div>
