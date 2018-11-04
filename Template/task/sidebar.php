@@ -5,7 +5,7 @@
     $active = $routerController == 'Relationgraph' && $routerPlugin == 'Relationgraph';
 ?>
 <li class="<?= $active ? 'active' : '' ?>">
-    <i class="fa fa-rotate-left fa-fw"></i>
+    <i class="fa fa-link fa-fw"></i>
     <?= $this->url->link(
         t('Relation graph'),
         'relationgraph',
@@ -13,4 +13,3 @@
         ['plugin' => 'relationgraph', 'task_id' => $task['id']]
     ) ?>
 </li>
-
